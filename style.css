@@ -1,0 +1,46 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 35px auto;
+    min-height: 275px;
+    max-width: 70%;
+    border-color: darkgrey;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.header{
+    background-color: darkcyan;
+    height: 85px;
+    padding: 0px 25px;
+    display: flex;
+    align-items:flex-end;
+}
+
+.header img{
+    width: 80px;
+    margin: 5px;
+    position: relative;
+    top: 45px;
+}
+
+.text_margin{
+    margin: 6px 0px;
+}
+
+.info{
+    padding: 30px 25px;
+}
+
+.info img{
+    width: 12px;
+}
+
+.info a{
+    color: #2b78e4;
+}
